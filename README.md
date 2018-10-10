@@ -1,10 +1,10 @@
-# Glenis El-Beyroui
+# Glenis El-Beyrouti
 
 #### [glenis.ca](https://glenis.ca)
 
 Glenis El-Beyrouti, Designer
 
-Who doesn’t like it when things end up all neat and pretty? I believe that the world just works better when we really pay attention to the small details and try to introduce elegance in the things we make and do. Keeping things clean keeps things easy is what my parents always taught me.
+Who doesn’t like it when things end up all neat and pretty? I believe that the world just works better when we really pay attention to the small details and try to introduce elegance in the things we make and do. Keeping things clean keeps things easy is what my parents always taught me. <<< Turn into quote
 
 I solve problems with clarity and simplicity always in mind, and love to use motion to move people.
 
