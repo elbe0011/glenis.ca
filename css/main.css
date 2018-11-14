@@ -7,18 +7,6 @@ html {
   color: #666;
 }
 
-.video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -1000;
-  transform: translateX(-50%) translateY(-50%);
-}
-
 header {
   z-index: 999;
   font-family: 'Raleway', sans-serif;
@@ -102,8 +90,23 @@ div {
   background-color: #15125d;
 }
 
+.walk-bg {
+  background-color: #fd9cc4;
+}
+
 .banner {
   height: auto;
+  text-align: center;
+}
+
+.reach-me {
+  transition: .2s;
+}
+
+.reach-me:hover {
+  background-color: #666;
+  color: white;
+  transition: .2s;
 }
 
 .gallery-buttons {
@@ -173,7 +176,7 @@ div {
 }
 
 .banner-push {
-  padding-top: 6em;
+  padding-top: 5em;
 }
 
 .full-height {
@@ -235,6 +238,7 @@ div {
 
   .banner {
     height: 80vh;
+    text-align: right;
   }
 
 
