@@ -87,7 +87,8 @@ div {
 }
 
 .building-bg {
-  background-color: #15125d;
+  background-color: black;
+  /* background-color: #15125d; */
 }
 
 .walk-bg {
