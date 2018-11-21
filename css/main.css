@@ -134,7 +134,7 @@ div {
 
 .prev-button:hover, .next-button:hover {
   color: #666;
-  background-color: #333;
+  background-color: rgba(200, 200, 200, 0.8);
   transition: .2s;
 }
 
@@ -242,5 +242,12 @@ div {
     text-align: right;
   }
 
+}
+
+@media only screen and (min-width: 92em) {
+
+  .banner-wrapper {
+    max-width: 80%;
+  }
 
 }
