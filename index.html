@@ -1,132 +1,95 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Glenis Design • Ottawa, Ontario, Canada</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Raleway:400,400i,700,700i" rel="stylesheet">
-</head>
-<body>
+---
+layout: default
+title: Glenis Design • Ottawa, Ontario, Canada
+headfoot-bg: gradient-bg
+last: all-dolled-up
+next: acreman
+---
+<main class="gradient-bg">
 
-  <header>
-    <div class="w-1 gradient-bg island text-center">
-      <a class="grid max-length grid-middle" href="index.html">
-        <div class="unit xs-0 s-0 m-1-3">
-          <h2 class="push-0 white-text text-right">Glenis</h2>
+  <div class="banner">
+    <div class="grid height-hello grid-middle banner-push wrapper">
+      <div class="unit xs-1 m-1-2 text-right-medium">
+        <div class="text island">
+          <h2 class="tena playfair push-0">Glenis</h2>
+          <h2 class="tena playfair">El-Beyrouti</h2>
+          <p class="bodytext micro push-2">I'm a guy with a girl's name that likes making things look pretty.</p>
+          <a class="island-1-2 white-bg no-decoration playfair-heavy reach-me italic" href="#contact">Reach me</a>
         </div>
-        <div class="unit xs-1-4 m-1-3">
-          <i class="icon i-48">
-            <img src="images/logo-white.svg" alt="">
-          </i>
+      </div>
+      <div class="unit xs-1 m-1-2 pulse">
+        <div class="embed embed-1by1 text-right">
+          <video class="embed-item reflect" autoplay muted loop id="myVideo" alt="Penrose triangle animation">
+            <source src="{{site.baseurl}}/video/pulse-fast.mp4" type="video/mp4">
+          </video>
         </div>
-        <div class="unit xs-0 s-0 m-1-3">
-          <h2 class="push-0 white-text text-left">Design</h2>
-        </div>
-        <div class="unit xs-3-4 m-0">
-          <h1 class="push-0 white-text text-left">Glenis Design</h1>
-        </div>
-      </a>
+      </div>
     </div>
-  </header>
-
-  <body class="gradient-bg">
-
-    <div class="banner">
-      <div class="grid height-hello grid-middle banner-push wrapper">
-        <div class="unit xs-1 m-1-2 text-right-medium">
-          <div class="text island">
-            <h2 class="tena playfair-heavy push-0">Glenis</h2>
-            <h2 class="tena playfair-heavy">El-Beyrouti</h2>
-            <p class="bodytext micro push-2">I'm a guy with a girl's name that likes making things look pretty.</p>
-            <a class="island-1-2 white-bg no-decoration playfair-heavy reach-me italic" href="#contact">Reach me</a>
+  </div>
+  <div class="content-grid" id="content">
+    <div class="text-center white-text">
+      <h3>
+        <a class="white-text no-decoration content-header" href="#content">Let me show you something</a>
+      </h3>
+    </div>
+    <div class="white-bg">
+      <div class="grid wrapper island">
+        <div class="unit xs-1 m-1-2">
+          <div class="island relative">
+            <a class="item" href="{{site.baseurl}}/acreman/">
+              <div class="embed embed-1by1">
+                <video class="embed-item" autoplay muted loop id="myVideo" alt="Acreman logo animation">
+                  <source src="{{site.baseurl}}/video/acreman-logo-animation.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="card-text white-text">
+                  <h4 class="text-center push-0 pin-c playfair italic">Acreman</h4>
+              </div>
+            </a>
           </div>
         </div>
-        <div class="unit xs-1 m-1-2 pulse">
-          <div class="embed embed-1by1 text-right">
-            <video class="embed-item reflect" autoplay muted loop id="myVideo">
-              <source src="video/pulse-fast.mp4" type="video/mp4">
-            </video>
+        <div class="unit xs-1 m-1-2">
+          <div class="island relative">
+            <a class="item" href="{{site.baseurl}}/build/">
+              <div class="embed embed-1by1">
+                <img class="embed-item move2" src="{{site.baseurl}}/images/building-styleboard.jpg" alt="Build style frame">
+              </div>
+              <div class="card-text white-text">
+                  <h4 class="text-center push-0 pin-c playfair italic">Building</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="unit xs-1 m-1-2">
+          <div class="island relative">
+            <a class="item" href="{{site.baseurl}}/walk/">
+              <div class="embed embed-1by1">
+                <video class="embed-item" autoplay muted loop id="myVideo" alt="Building style frame">
+                  <source src="{{site.baseurl}}/video/just-character.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="card-text white-text">
+                  <h4 class="text-center push-0 pin-c playfair italic">Walk</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="unit xs-1 m-1-2">
+          <div class="island relative">
+            <a class="item" href="{{site.baseurl}}/all-dolled-up/">
+              <div class="embed embed-1by1">
+                <div class="embed-item">
+                  <img class="move" src="{{site.baseurl}}/images/adu-badge.png" alt="All dolled up logo">
+                </div>
+              </div>
+              <div class="card-text white-text">
+                  <h4 class="text-center push-0 pin-c playfair italic">All Dolled Up</h4>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <div class="content-grid" id="content">
-      <div class="text-center white-text">
-        <h3>
-          <a class="white-text no-decoration" href="#content">Let me show you something</a>
-        </h3>
-      </div>
-      <div class="white-bg">
-        <div class="grid wrapper island">
-          <div class="unit xs-1 m-1-2">
-            <div class="island relative">
-              <a class="item" href="building.html">
-                <div class="embed embed-1by1">
-                  <div class="embed-item">
-                    <img class="move" src="images/building-styleboard.jpg" alt="">
-                  </div>
-                </div>
-                <div class="card-text white-text">
-                      <h4 class="text-center push-0 pin-c playfair italic">Building</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="unit xs-1 m-1-2">
-            <div class="island relative">
-              <a class="item" href="walk.html">
-                <div class="embed embed-1by1">
-                  <video class="embed-item" autoplay muted loop id="myVideo">
-                    <source src="video/just-character.mp4" type="video/mp4">
-                  </video>
-                </div>
-                <div class="card-text white-text">
-                      <h4 class="text-center push-0 pin-c playfair italic">Walk</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="unit xs-1 m-1-2">
-            <div class="island relative">
-              <a class="item" href="building.html">
-                <div class="embed embed-1by1">
-                  <div class="embed-item">
-                    <img class="move" src="images/adu-badge.png" alt="">
-                  </div>
-                </div>
-                <div class="card-text white-text">
-                      <h4 class="text-center push-0 pin-c playfair italic">All Dolled Up</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+  </div>
 
-  <footer class="gradient-bg" id="contact">
-    <div class="island wrapper text-center">
-      <h3 class="white-text">I love chatting: <a href="mailto:glenis.elbeyrouti@gmail.com" class="white-text">glenis.elbeyrouti@gmail.com</a></h3>
-      <div class="">
-        <ol class="list-group-inline">
-          <li>
-            <a href="#">facebook</a>
-          </li>
-          <li>
-            <a href="#">instagram</a>
-          </li>
-          <li>
-            <a href="#">vimeo</a>
-          </li>
-        </ol>
-      </div>
-    </div>
-  </footer>
-
-</body>
-</html>
+</main>
