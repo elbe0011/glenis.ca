@@ -35,7 +35,7 @@ div {
   transition: .5s;
 }
 
-.top-bar-move:hover {
+.top-bar-move:hover, .top-bar-move:focus {
   max-width: 50%;
   transition: .5s:
 }
@@ -96,6 +96,16 @@ div {
 .playfair-heavy {
   font-family: 'gastromond', serif;
   font-weight: 400;
+}
+
+.footer-hover {
+  transition: .5s;
+}
+
+.footer-hover:hover, .footer-hover:focus {
+  transition: .5s;
+  margin-left: .5em;
+  margin-right: .5em;
 }
 
 /* .playfair {
@@ -186,7 +196,7 @@ div {
   transition: .5s;
 }
 
-.reach-me:hover {
+.reach-me:hover, .reach-me:focus {
   font-size: 102%;
   background-color: #666;
   color: white;
@@ -213,7 +223,7 @@ div {
   transition: .5s;
 }
 
-.gal-btn-l:hover {
+.gal-btn-l:hover, .gal-btn-l:focus {
   position: absolute;
   top: 5%;
   bottom: 5%;
@@ -231,7 +241,7 @@ div {
   transition: .5s;
 }
 
-.gal-btn-r:hover {
+.gal-btn-r:hover, .gal-btn-r:focus {
   position: absolute;
   top: 5%;
   bottom: 5%;
@@ -306,7 +316,7 @@ div {
   transition: .5s;
 }
 
-.item:hover .card-text {
+.item:hover .card-text, .item:focus .card-text {
   /* opacity: 0; */
   left: 1em;
   right: 1em;
@@ -321,7 +331,7 @@ div {
   transition: .5s;
 }
 
-.content-header:hover {
+.content-header:hover, .content-header:focus {
   transition: .5s;
   font-size: 95%;
 }
