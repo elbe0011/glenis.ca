@@ -49,6 +49,10 @@ div {
   top: 0;
 }
 
+.responsive-left, .responsive-right {
+  text-align: center;
+}
+
 .move {
   animation: move 20s ease-in-out infinite alternate;
   width: 125%;
@@ -178,12 +182,20 @@ div {
   color: #ee5273;
 }
 
+.adu-border {
+  border: 5px solid #ee5273;
+}
+
 .acreman-bg {
   background-color: #0fbdc6;
 }
 
 .acreman-color {
   color: #0fbdc6;
+}
+
+.acreman-border {
+  border: 5px solid #0fbdc6;
 }
 
 /* .portfolio-bg {
@@ -363,6 +375,14 @@ div {
 
   .gallery-buttons {
     visibility: visible;
+  }
+
+  .responsive-left {
+    text-align: left;
+  }
+
+  .responsive-right {
+    text-align: right;
   }
 
 }
