@@ -12,10 +12,16 @@
   <link rel="stylesheet" href="https://use.typekit.net/zfu6obw.css">
   <link href="favicon.ico" rel="shortcut icon">
   <link rel="icon" type="image/png" href="/favicon-196.png">
+  <meta name="description" content="{{page.meta-description}}">
 </head>
 <body>
 
-  <header>
+  <div class="skip-links">
+    <a href="#content">Jump to main content</a>
+    <a href="#contentinfo">Jump to footer</a>
+  </div>
+
+  <header role="banner">
     <div class="{{page.headfoot-bg}} w-1 island-1-2 text-center">
       <a class="grid max-length grid-middle top-bar-move" href="../{{site.baseurl}}">
         <div class="unit xs-1-3">
@@ -33,12 +39,12 @@
           <h1 class="push-0 white-text text-left kilo">Glenis Design</h1>
         </div>
       </a>
-      <a class="nano pin-tl gallery-buttons" href="{{site.baseurl}}/{{page.last}}">
+      <a class="nano pin-tl gallery-buttons" href="{{site.baseurl}}/{{page.last}}" aria-label="Go to last portfolio piece.">
         <div class="gal-btn-l">
           <span class="pin-c">&lt; last</span>
         </div>
       </a>
-      <a class="nano pin-tr gallery-buttons" href="{{site.baseurl}}/{{page.next}}">
+      <a class="nano pin-tr gallery-buttons" href="{{site.baseurl}}/{{page.next}}" aria-label="Go to next portfolio piece.">
         <div class="gal-btn-r">
           <span class="pin-c">next &gt;</span>
         </div>
@@ -48,19 +54,19 @@
 
   {{content}}
 
-  <footer class="{{page.headfoot-bg}}" id="contact">
+  <footer class="{{page.headfoot-bg}}" id="contact" role="contentinfo">
     <div class="island wrapper text-center" id="data-author" itemref="author-about" itemprop="author" itemscope itemtype="https://schema.org/Person">
-      <h3 class="white-text kilo">I love chatting: <a itemprop="email" href="mailto:glenis.elbeyrouti@gmail.com" class="white-text footer-hover">glenis.elbeyrouti@gmail.com</a></h3>
+      <h3 class="white-text kilo">I love chatting: <a itemprop="email" href="mailto:glenis.elbeyrouti@gmail.com" class="white-text footer-hover" aria-label="Email Glenis El-Beyrouti">glenis.elbeyrouti@gmail.com</a></h3>
       <div class="">
         <ol class="list-group-inline">
           <li class="gutter-1-4">
-            <a href="https://www.facebook.com/glenis.elbeyrouti" class="white-text footer-hover">facebook</a>
+            <a href="https://www.facebook.com/glenis.elbeyrouti" class="white-text footer-hover" aria-label="Visit Glenis's Facebook page">facebook</a>
           </li>
           <li class="gutter-1-4">
-            <a href="https://www.instagram.com/glenis.elbeyrouti/?hl=en" class="white-text footer-hover">instagram</a>
+            <a href="https://www.instagram.com/glenis.elbeyrouti/?hl=en" class="white-text footer-hover" aria-label="Visit Glenis's Instagram page">instagram</a>
           </li>
           <li class="gutter-1-4">
-            <a href="https://vimeo.com/user71785471" class="white-text footer-hover">vimeo</a>
+            <a href="https://vimeo.com/user71785471" class="white-text footer-hover" aria-label="Visit Glenis's Vimeo page">vimeo</a>
           </li>
         </ol>
       </div>

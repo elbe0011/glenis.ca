@@ -1,0 +1,3 @@
+Sitemap: http://glenis.design/sitemap.xml
+
+User-Agent: *
