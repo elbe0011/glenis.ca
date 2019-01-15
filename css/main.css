@@ -357,6 +357,10 @@ div {
   font-size: 95%;
 }
 
+.content-grid:focus {
+  outline: none;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
